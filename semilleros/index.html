@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=  "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3eb7242730.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+
+            <a href="index.html" class="navbar-logo">Mi 
+                Semillero</a>
+
+            <ul class="navbar-menu">
+
+                <li class="navbar-item"><a href="/inicio/index.html" class="navbar-link">INICIO</a></li>
+
+                <li class="navbar-item"><a href="/semilleros/index.html" class="navbar-link">SEMILLEROS</a></li>
+                
+                <li class="navbar-item"><a href="/intercolegiados/index.html" class="navbar-link">INTERCOLEGIADOS</a></li>
+
+                <li class="navbar-item"><a href="/trofeos/index.html" class="navbar-link">PREMIOS</a></li>
+                
+                <li class="navbar-item"><a href="/contaco/index.htm" class="navbar-link"> CONTACTO</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <div class="conteitemscarrusel" id="conteitemscarrusel">
+
+            <div class="item-carrusel" id="intelcarrusel-1">
+                <div class="tarjeta-carrusel" id="tarjetacarrusel-1">
+                    
+                </div>
+                <div class="flechas-carrusel">
+                    <a href="#intelcarrusel-3">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                    <a href="#intelcarrusel-2">
+                        <i class="fa-duotone fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="item-carrusel" id="intelcarrusel-2">
+                <div class="tarjeta-carrusel" id="tarjetacarrusel-2">
+                    
+                </div>
+                <div class="flechas-carrusel">
+                    <a href="#intelcarrusel-1">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                    <a href="#intelcarrusel-3">
+                        <i class="fa-duotone fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="item-carrusel" id="intelcarrusel-3">
+                <div class="tarjeta-carrusel" id="tarjetacarrusel-3">
+                    
+                </div>
+                <div class="flechas-carrusel">
+                    <a href="#intelcarrusel-2">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                    <a href="#intelcarrusel-1">
+                        <i class="fa-duotone fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+    </div>
+
+    <div class="inicial-frase-info">
+        <div class="item-frase">
+            <img class="img-frase" src="inicial.png" alt="semilleros inscripciones abiertas1">
+        </div>
+
+        <div class="item-info">
+            <div class="titulo-info">INFORMACION</div>
+            <p></p>
+            <div class="cuerpo-info">En los semilleros deportivos podras aprender sobre las diferentes diciplinas deportivas.
+            </div>
+            <p></p>
+            <div class="cuerpo-info">
+            Los entrenos se realizaran en los horarios de la tarde en contra jornada con la guia de los distintos entrenadores.
+            </div>
+            <p></p>
+            <div class="cuerpo-info">
+            Tienes que llevar ropa adecuada para el entrenamiento e hidratacion
+            </div>
+            <p></p>
+        </div>
+    </div>
+
+        <div class="inicial-form">
+            <div class="item-form">
+                <img src="INSCRIBETE.png" id="openModalBtn" alt="Abrir Formulario" class="custom-image">
+            </div>
+        </div>
+
+        <div>
+            <!-- Modal simulado como nueva pestaña -->
+        <div id="fullScreenModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Formulario de inscripciones</h2>
+                <form action="https://formsubmit.co/juandaguz122@gmail.com" method="post">
+                    <!-- Campo para elegir tipo de documento -->
+    
+                    <label for="name">Nombre(s):</label>
+                    <input type="text" id="name" name="name" required><br>
+    
+                    <label for="Apellidos">Apellidos:</label>
+                    <input type="text" id="Apellidos" name="Apellidos" required><br>
+    
+                    <label for="documentType">Tipo de Documento:</label>
+                    <select id="documentType" name="documentType" required>
+                        <option value="" disabled selected>Seleccione un tipo de documento</option>
+                        <option value="RC">Registro Civil</option>
+                        <option value="TI">Tarjeta de Identidad</option>
+                        <option value="CC">Cédula de Ciudadanía</option>
+                    </select><br>
+    
+                    <label for="name">Numero de documento:</label>
+                    <input type="text" id="Numero-de-document" name="Numero-de-document" required><br>
+    
+                    <label for="Curso">Curso</label>
+                    <input type="text" id="Curso" name="Curso" required><br>
+    
+                    <label for="Curso">Fecha de nacimiento</label>
+                    <input type="text" id="Curso" name="Curso" required><br>
+    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required><br>
+    
+                    <label for="Semillero">Semillero al cual desea pertenecer:</label>
+                    <select id="Semillero" name="Semillero" required>
+                        <option value="" disabled selected>Seleccione un semillero</option>
+                        <option value="Ajedrez">Ajedrez</option>
+                        <option value="Baloncesto">Baloncesto</option>
+                        <option value="Voleibol">Voleibol</option>
+                        <option value="Atletismo">Atletismo</option>
+                        <option value="Futbol">Futbol</option>
+                        <option value="Futbol-Sala">Futbol-Sala</option>
+                    </select><br>
+    
+                    <label for="message">Por que quiere pertenecer a este semillero:</label>
+                    <textarea id="message" name="message" required></textarea><br>
+    
+                    <button type="submit">Enviar</button><br>
+                    <p></p> <b>
+                </form>
+    
+        <script src="script.js"></script>
+    
+            </div>
+        </div>
+
+    </div>
+
+    <div class="linea-con-texto" id="linea-con-texto">
+            <hr class="linea">
+            <span class="texto">Nuestros Semilleros</span>
+            <hr class="linea">
+    </div>
+
+    <div class="inicial-botones">
+        <div class="item-botones">
+            <a href="../semilleros/sub_paginas/Futbol/index.html"><img class="img-botones" src="FUTBOL.png" alt="FUTBOL"></a>
+        </div>
+
+        <div class="item-botones">
+            <a href="../semilleros/sub_paginas/Futbol Sala/index.html"><img class="img-botones" src="FUTBOL SALA.png" alt="FUTBOL SALA"></a>
+        </div>
+
+        <div class="item-botones">
+            <a href="../semilleros/sub_paginas/Basketball/index.html"><img class="img-botones" src="BASKETBALL.png" alt="BASKETBALL"></a>
+        </div>
+
+        <div class="item-botones">
+            <a href="./sub_paginas/Voleibol/index.html"><img class="img-botones" src="VOLEIBOL.png" alt="VOLEIBOL"></a>
+        </div>
+
+        <div class="item-botones">
+            <a href="../semilleros/sub_paginas/Atletismo/"><img class="img-botones" src="ATLETISMO.png" alt="ATLETISMO"></a>
+        </div>
+
+        <div class="item-botones">
+            <a href=".//sub_paginas/Ajedrez/index.html"><img class="img-botones" src="AJEDREZ.png" alt="semilleros inscripciones abiertas1"></a>
+        </div>
+    </div>
+
+</body>
+</html>

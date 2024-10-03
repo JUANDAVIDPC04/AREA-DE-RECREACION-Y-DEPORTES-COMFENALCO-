@@ -1,0 +1,369 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    font-size: 30;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #53b72e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navbar-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-link:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+.conteitemscarrusel{
+    margin-top: 8vh;
+}
+
+#conteitemscarrusel{
+    height: 62vh;
+    overflow: hidden;
+}
+
+.item-carrusel{
+    height: 100%;
+    position: relative;
+}
+
+.tarjeta-carrusel{
+    
+    height: 100%;
+}
+
+.flechas-carrusel{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+#tarjetacarrusel-1{
+    background-image: url(CARRUSEL\ SEMILLEROS.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tarjetacarrusel-2{
+    background-image: url(CARRUSEL\ INICO.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tarjetacarrusel-3{
+    background-image: url(CARRUSEL\ INTERCOLEGIADOS.png );
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.inicial-frase-info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.item-frase{
+border: 2px solid transparent;
+margin: 10px;
+border-radius: 5px; 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+width: 47vw; 
+overflow: auto;
+box-sizing: border-box;
+}
+
+.img-frase {
+width: 100%; 
+}
+
+.item-info{
+border: 10px solid #006843;
+margin: 10px;
+border-radius: 5px; 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+width: 47vw; 
+overflow: auto;
+box-sizing: border-box;
+}
+
+.titulo-info{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: oblique;
+font-size: 4vw;
+text-align: center;    
+}
+
+.cuerpo-info{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 2vw ;
+margin-left: 2vw;
+}
+
+.inicial-botones{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.item-botones{
+border: 1vw solid #006843;
+margin: 1vw 4vw 1vw 4vw;
+border-radius: 5px; 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+width: 18vw; 
+overflow: auto;
+box-sizing: border-box; 
+}
+
+.item-botones:hover {
+transform: translateY(-10px); 
+box-shadow: 0 8px 15px #00000072; 
+    }
+
+.img-botones{
+width: 100%; 
+}
+
+.linea-con-texto {
+    margin-top: 7.8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom:0;
+
+}
+
+.linea {
+    flex-basis: 40%;
+    height: 10px;
+    margin: 0;
+    background-color: #006843;
+}
+
+.texto {
+    white-space: nowrap;
+    font-size: 6vw;
+    font-family: fantasy;
+    font-style: oblique;
+    border-collapse: collapse;
+}
+
+.inicial-formulario{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.item-form{
+    border: 0.6vw solid #006843;
+    margin: 1vw 4vw 1vw 4vw;
+    border-radius: 5px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 90vw; 
+    overflow: auto;
+    box-sizing: border-box; 
+}
+
+.item-form:hover {
+    transform: translateY(-20px); 
+    box-shadow: 0 10px 30px #00000072; 
+}
+
+.titulo-form{
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 5vw;
+}
+
+.inicial-inter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.item-inter{
+background-color: #006843;
+border: 5px solid #006843;
+margin: 10px;
+color: #000000;
+background-color: #ffffff;
+border-radius: 5px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+width: 82vw;
+height: auto;
+overflow: auto;
+box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.item-inter:hover {
+transform: translateY(-10px); 
+box-shadow: 0 8px 15px #00000072; 
+} 
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la imagen que actúa como botón */
+.custom-image {
+    display: grid;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Estilos para el modal */
+.modal {
+    margin: 10vh 0 80px 0;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenido del modal */
+.modal-content {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; /* Ancho del modal */
+    max-width: 600px; /* Ancho máximo del modal */
+    max-height: 90%;
+    overflow-y: auto; /* Scroll vertical si es necesario */
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de cerrar el modal */
+.close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button[type="submit"] {
+    background-color: #006843;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+

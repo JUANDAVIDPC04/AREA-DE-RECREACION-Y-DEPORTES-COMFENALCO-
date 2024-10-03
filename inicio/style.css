@@ -1,0 +1,254 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} 
+
+.navbar {
+    width: 100%;
+    background-color: #53b72e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    font-size: 2.5vh;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navbar-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-link:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+.conteitemscarrusel{
+    margin-top: 8vh;
+}
+
+#conteitemscarrusel{
+    height: 62vh;
+    overflow: hidden;
+}
+
+.item-carrusel{
+    height: 100%;
+    position: relative;
+}
+
+.tarjeta-carrusel{
+    
+    height: 100%;
+}
+
+.flechas-carrusel{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+#tarjetacarrusel-1{
+    background-image: url(CARRUSEL\ INICO.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tarjetacarrusel-2{
+    background-image: url(CARRUSEL\ SEMILLEROS.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tarjetacarrusel-3{
+    background-image: url(CARRUSEL\ INTERCOLEGIADOS.png );
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.linea-con-texto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom:0;
+
+}
+
+.linea {
+    flex-basis: 40%;
+    height: 10px;
+    margin: 0;
+    background-color: #71ff04;
+}
+
+.texto {
+    white-space: nowrap;
+    font-size: 6vw;
+    font-family: fantasy;
+    font-style: oblique;
+    border-collapse: collapse;
+}
+
+.inicial-inter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.item-inter{
+border: 2px solid black;
+margin: 10px; 
+color: #000000;
+background-color: #ffffff; 
+border-radius: 5px; 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+width: 47vw; 
+overflow: auto;
+box-sizing: border-box;
+}
+
+.item-inter:hover {
+transform: translateY(-10px); 
+box-shadow: 0 8px 15px #00000072; 
+}
+
+.img-inter {
+width: 100%; 
+}
+
+.item-ventana {
+border: 2px solid black;
+margin: 10px;
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+color: #ffffff;
+background-color: #ffffff;
+text-decoration: none; 
+font-weight: 900;
+border-radius: 5px; 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+width: 47vw;
+overflow: auto;
+box-sizing: border-box;
+}
+
+.item-ventana:hover {
+transform: translateY(-10px); 
+box-shadow: 0 8px 15px #0000004d; 
+}
+
+.img-ventana {
+width: 100%;
+}
+
+.inicial-vitrina {
+    margin-top: 10px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.item-vitrina{
+border: 2px solid black;
+margin: 10px; 
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+color: #000000;
+text-decoration: none; 
+background-color: #ffffff; 
+font-weight: 900; 
+border-radius: 5px; 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+width: 96vw; 
+overflow: auto;
+box-sizing: border-box;
+}
+
+.item-vitrina:hover {
+transform: translateY(-10px); 
+box-shadow: 0 8px 15px #00000072; 
+}
+
+.img-vitrina {
+width: 100%; 
+}
+
+.inicial-deportistas {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.item-deportistas{
+border: 2px solid black;
+margin: 10px; 
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+color: #000000;
+text-decoration: none; 
+background-color: #ffffff; 
+font-weight: 900; 
+border-radius: 5px; 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+width: 47vw; 
+overflow: auto;
+box-sizing: border-box;
+}
+
+.item-deportistas:hover {
+transform: translateY(-10px); 
+box-shadow: 0 8px 15px #00000072; 
+}
+
+.img-deportistas {
+width: 100%; 
+}

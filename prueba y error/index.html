@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Emergente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Imagen que actúa como botón -->
+    <img src="boton.png" id="openModalBtn" alt="Abrir Formulario" class="custom-image">
+
+    <!-- Modal simulado como nueva pestaña -->
+    <div id="fullScreenModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Formulario Emergente</h2>
+            <form>
+                <!-- Campo para elegir tipo de documento -->
+
+                <label for="name">Nombre(s):</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="Apellidos">Apellidos:</label>
+                <input type="text" id="Apellidos" name="Apellidos" required><br>
+
+                <label for="documentType">Tipo de Documento:</label>
+                <select id="documentType" name="documentType" required>
+                    <option value="" disabled selected>Seleccione un tipo de documento</option>
+                    <option value="RC">Registro Civil</option>
+                    <option value="TI">Tarjeta de Identidad</option>
+                    <option value="CC">Cédula de Ciudadanía</option>
+                </select><br>
+
+                <label for="name">Numero de documento:</label>
+                <input type="text" id="Numero-de-document" name="Numero-de-document" required><br>
+
+                <label for="Curso">Curso</label>
+                <input type="text" id="Curso" name="Curso" required><br>
+
+                <label for="Curso">Fecha de nacimiento</label>
+                <input type="text" id="Curso" name="Curso" required><br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="Semillero">Semillero al cual desea pertenecer:</label>
+                <select id="Semillero" name="Semillero" required>
+                    <option value="" disabled selected>Seleccione un semillero</option>
+                    <option value="RC">Ajedrez</option>
+                    <option value="TI">Baloncesto</option>
+                    <option value="CC">Voleibol</option>
+                    <option value="CC">Atletismo</option>
+                    <option value="CC">Futbol</option>
+                    <option value="CC">Futbol-Sala</option>
+                </select><br>
+
+                <label for="message">Por que quiere pertenecer a este semillero:</label>
+                <textarea id="message" name="message" required></textarea><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

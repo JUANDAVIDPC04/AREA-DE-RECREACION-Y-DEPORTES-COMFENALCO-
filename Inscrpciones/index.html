@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios de Semilleros e Intercolegiados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+
+            <a href="index.html" class="navbar-logo">Mi 
+                Semillero</a>
+
+            <ul class="navbar-menu">
+
+                <li class="navbar-item"><a href="/inicio/index.html" class="navbar-link">INICIO</a></li>
+
+                <li class="navbar-item"><a href="/semilleros/index.html" class="navbar-link">SEMILLEROS</a></li>
+                
+                <li class="navbar-item"><a href="/intercolegiados/index.html" class="navbar-link">INTERCOLEGIADOS
+
+                <li class="navbar-item"><a href="/trofeos/index.html" class="navbar-link">PREMIOS</a></li>
+                
+                <li class="navbar-item"><a href="/contaco/index.htm" class="navbar-link">CONTACTO</a></li> 
+
+
+            
+            </ul>
+        </div>
+    </nav>
+
+    <img src="INSTITUCION EDUCATIVA “AUGUSTO E. MEDINA ” DECOMFENALCO (3).png " alt="">
+
+    <div class="container-selector">
+        <a href="#form-semillero" class="btn-selector">Semilleros</a>
+        <a href="#form-intercolegiados" class="btn-selector">Intercolegiados</a>
+    </div>
+
+    <div class="container">
+        <!-- Formulario Semilleros -->
+        <form action="https://formsubmit.co/juandaguz122@gmail.com" method="post" id="form-semillero">
+            <h2>Semilleros</h2>
+
+            <div class="form-group">
+                <label for="nombres">Nombre(s):</label>
+                <input type="text" id="nombres" name="nombres" required>
+            </div>
+
+            <div class="form-group">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tipo-doc">Tipo de documento:</label>
+                <select id="tipo-doc" name="tipo-doc" required>
+                    <option value="registro-civil">Registro Civil</option>
+                    <option value="tarjeta-identidad">Tarjeta de Identidad</option>
+                    <option value="cedula-ciudadania">Cédula de Ciudadanía</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="num-doc">Número de documento:</label>
+                <input type="number" id="num-doc" name="num-doc" required>
+            </div>
+
+            <div class="form-group">
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" name="curso" required>
+            </div>
+
+            <div class="form-group">
+                <label for="deporte">Deporte:</label>
+                <select id="deporte" name="deporte" required>
+                    <option value="atletismo">Atletismo</option>
+                    <option value="baloncesto">Baloncesto</option>
+                    <option value="ajedrez">Ajedrez</option>
+                    <option value="futbol">Fútbol</option>
+                    <option value="futbol-sala">Fútbol Sala</option>
+                    <option value="voleibol">Voleibol</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+
+        <!-- Formulario Intercolegiados -->
+        <form action="https://formsubmit.co/juandaguz122@gmail.com" method="post" id="form-intercolegiados" class="hidden">
+            <h2>Intercolegiados</h2>
+
+            <div class="form-group">
+                <label for="nombres-int">Nombre(s):</label>
+                <input type="text" id="nombres-int" name="nombres-int" required>
+            </div>
+
+            <div class="form-group">
+                <label for="apellidos-int">Apellidos:</label>
+                <input type="text" id="apellidos-int" name="apellidos-int" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tipo-doc-int">Tipo de documento:</label>
+                <select id="tipo-doc-int" name="tipo-doc-int" required>
+                    <option value="registro-civil">Registro Civil</option>
+                    <option value="tarjeta-identidad">Tarjeta de Identidad</option>
+                    <option value="cedula-ciudadania">Cédula de Ciudadanía</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="num-doc-int">Número de documento:</label>
+                <input type="number" id="num-doc-int" name="num-doc-int" required>
+            </div>
+
+            <div class="form-group">
+                <label for="curso-int">Curso:</label>
+                <input type="text" id="curso-int" name="curso-int" required>
+            </div>
+
+            <div class="form-group">
+                <label for="deporte-int">Deporte:</label>
+                <select id="deporte-int" name="deporte-int" required>
+                    <option value="atletismo">Atletismo</option>
+                    <option value="baloncesto">Baloncesto</option>
+                    <option value="ajedrez">Ajedrez</option>
+                    <option value="futbol">Fútbol</option>
+                    <option value="futbol-sala">Fútbol Sala</option>
+                    <option value="voleibol">Voleibol</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
